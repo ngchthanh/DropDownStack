@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "DropDownStack"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "A short dropdown menu"
 
   spec.description  = <<-DESC
@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/ngchthanh/DropDownStack.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "DropDownStack/**/*.{h,m,swift}"
+  spec.source_files  = "DropDownStack/*.{swift}"
 
 end
