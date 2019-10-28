@@ -15,8 +15,6 @@
 		DB863B122365793B001BC2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB863B102365793B001BC2CA /* LaunchScreen.storyboard */; };
 		DB863B1923657A24001BC2CA /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB863B1823657A24001BC2CA /* DropDownView.swift */; };
 		DB863B1B23657A69001BC2CA /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB863B1A23657A69001BC2CA /* DropDownButton.swift */; };
-		DB863B1C23657A7E001BC2CA /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB863B1823657A24001BC2CA /* DropDownView.swift */; };
-		DB863B1D23657A81001BC2CA /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB863B1A23657A69001BC2CA /* DropDownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -240,8 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB863B0A2365793A001BC2CA /* ViewController.swift in Sources */,
-				DB863B1C23657A7E001BC2CA /* DropDownView.swift in Sources */,
-				DB863B1D23657A81001BC2CA /* DropDownButton.swift in Sources */,
 				DB863B062365793A001BC2CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/ngchthanh/DropDownStack.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "DropDownStack", "DropDownStack/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "DropDownStack/**/*.{h,m,swift}"
 
 end
