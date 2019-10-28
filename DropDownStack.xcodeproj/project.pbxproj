@@ -52,6 +52,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1F7B082366C7DA001720B9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F7B092366C7E6001720B9 /* DropDownButton */,
+				DB863B1723657A11001BC2CA /* DropDownView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DB1F7B092366C7E6001720B9 /* DropDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				DB863B1A23657A69001BC2CA /* DropDownButton.swift */,
+			);
+			path = DropDownButton;
+			sourceTree = "<group>";
+		};
 		DB863AEA2365771B001BC2CA = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +90,7 @@
 		DB863AF62365771B001BC2CA /* DropDownStack */ = {
 			isa = PBXGroup;
 			children = (
-				DB863B1723657A11001BC2CA /* DropDownView */,
+				DB1F7B082366C7DA001720B9 /* Source */,
 				DB863AF72365771B001BC2CA /* DropDownStack.h */,
 				DB863AF82365771B001BC2CA /* Info.plist */,
 			);
@@ -97,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				DB863B1823657A24001BC2CA /* DropDownView.swift */,
-				DB863B1A23657A69001BC2CA /* DropDownButton.swift */,
 			);
 			path = DropDownView;
 			sourceTree = "<group>";
